@@ -40,8 +40,8 @@ export default function Home() {
           </p>
         <div>
         <div class="mt-10 flex items-center justify-center gap-x-6">
-            <link to="/home" class="rounded-md bg-indigo-500 px-3.5 py-2.5 text-sm font-semibold text-white shadow-xs hover:bg-indigo-400">Get started</link>
-            <link to="/signin"  class="text-sm/6 font-semibold text-white">Learn more <span aria-hidden="true">→</span></link>
+            <a href="/home" class="rounded-md bg-indigo-500 px-3.5 py-2.5 text-sm font-semibold text-white shadow-xs hover:bg-indigo-400">Get started</a>
+            <a href="/signin" class="text-sm/6 font-semibold text-white">Learn more <span aria-hidden="true">→</span></a>
         </div>
         </div>
         </div>
