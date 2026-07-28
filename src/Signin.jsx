@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
 export default function Signin() {
   const [email, setEmail] = useState("");
@@ -46,9 +47,14 @@ export default function Signin() {
             Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet fugiat veniam occaecat.
           </p>
         <div>
-        <div class="mt-10 flex items-center justify-center gap-x-6">
-            <a href="/home" class="rounded-md bg-indigo-500 px-3.5 py-2.5 text-sm font-semibold text-white shadow-xs hover:bg-indigo-400">Get started</a>
-            <a href="/signin"  class="text-sm/6 font-semibold text-white">Learn more <span aria-hidden="true">→</span></a>
+       <div className="mt-10 flex items-center justify-center gap-x-6">
+          <Link to="/"  className="rounded-md bg-indigo-500 px-3.5 py-2.5 text-sm font-semibold text-white shadow-xs hover:bg-indigo-400">
+            Get started
+          </Link>
+
+          <Link to="/home" className="text-sm font-semibold text-white" >
+            Learn more <span aria-hidden="true">→</span>
+          </Link>
         </div>
         </div>
         </div>
