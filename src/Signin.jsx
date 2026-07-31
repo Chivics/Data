@@ -2,15 +2,6 @@ import { useState } from "react";
 import { Link } from "react-router-dom";
 
 export default function Signin() {
-  const [email, setEmail] = useState("");
-  const [password, setPassword] = useState("");
-  const [rememberMe, setRememberMe] = useState(false);
-
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    // Handle sign in
-  };
-
   return (
     <div
       className="min-h-screen bg-cover bg-center bg-no-repeat"
